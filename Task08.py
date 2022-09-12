@@ -6,3 +6,16 @@ for i in range(1, n+1):
     sum+=(1+1/i)**i
 
 print(f"Сумма последовательности равна {round(sum, 2)}")
+
+
+
+#n = int(input('Введите число: ')) 
+
+
+
+# def sequence(n):
+
+#     return[round((1 + 1 / x)**x, 2) for x in range (1, n + 1)]   
+        
+# print(sequence(n))
+# print('Сумма последовательности =', round(sum(sequence(n))))
